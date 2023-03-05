@@ -34,3 +34,6 @@
 CascadeType.ALL + orphanRemovel=true
 ~~~
 두 옵션을 모두 활성화 하면 부모 엔티티를 통해서 자식의 생명 주기를 관리할 수 있음
+
+orphanRemoval은 자식을 부모 컬렉션에서 삭제
+cascade=DELETE는 부모를 삭제했을 때 연결된 자식 삭제
